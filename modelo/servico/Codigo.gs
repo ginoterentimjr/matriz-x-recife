@@ -195,9 +195,9 @@ function linhasDuv(a) {
   var n = a.getLastRow();
   if (n < 2) return [];
   return a.getRange(2, 1, n - 1, CAB_DUV.length).getValues().map(function (v, i) {
-    return {linha: i + 2, id: String(v[0]), recebida: String(v[1]), email: String(v[2]), nome: String(v[3]).replace(/^'/, ''), encontro: Number(v[4]),
+    return {linha: i + 2, id: String(v[0]), recebida: dataTxt(v[1]), email: String(v[2]), nome: String(v[3]).replace(/^'/, ''), encontro: Number(v[4]),
             atividade: String(v[5]).replace(/^'/, ''), pergunta: String(v[6]).replace(/^'/, ''), situacao: String(v[7]),
-            resposta: String(v[8]).replace(/^'/, ''), respondida: String(v[9]), lida: dataTxt(v[10])};
+            resposta: String(v[8]).replace(/^'/, ''), respondida: dataTxt(v[9]), lida: dataTxt(v[10])};
   });
 }
 function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br>'); }
@@ -207,7 +207,7 @@ function registrarDuvida(ss, p, req) {
   if (perg.length < 3) return {ok: false, erro: 'pergunta'};
   var id = 'D' + Utilities.formatDate(new Date(), 'America/Sao_Paulo', 'yyMMddHHmmss') + Math.floor(Math.random() * 90 + 10);
   var a = abaDuv(ss), quando = agora();
-  a.appendRow([id, quando, p.email, seguro(p.nome || ''), enc, seguro(ativ), seguro(perg), 'Aguardando', '', '']);
+  a.appendRow([id, "'" + quando, p.email, seguro(p.nome || ''), enc, seguro(ativ), seguro(perg), 'Aguardando', '', '']);
   try {
     MailApp.sendEmail({to: AVISO, name: 'Workbook Matriz X',
       subject: 'Matriz X · Nova dúvida de ' + (p.nome || p.email) + (ativ ? ' · ' + ativ : ''),
@@ -284,7 +284,7 @@ function responder(ss, req) {
   var a = abaDuv(ss), d = linhasDuv(a).filter(function (x) { return x.id === id; })[0];
   if (!d) return {ok: false, erro: 'id'};
   var quando = agora();
-  a.getRange(d.linha, 8, 1, 4).setValues([['Respondida', seguro(resp), quando, '']]);
+  a.getRange(d.linha, 8, 1, 4).setValues([['Respondida', seguro(resp), "'" + quando, '']]);
   var enviado = false;
   try {
     var nome1 = (d.nome || '').split(' ')[0] || 'Olá';
