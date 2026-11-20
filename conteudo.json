@@ -1,0 +1,975 @@
+{
+ "caminho": [
+  [
+   1,
+   "Da estratégia ao projeto",
+   "Bloco 1",
+   "#35608F",
+   "O seu projeto testado na cadeia",
+   "O método"
+  ],
+  [
+   2,
+   "A Matriz X e seus quatro lados",
+   "Bloco 2",
+   "#B5781E",
+   "A matriz explicada a um colega",
+   "O método"
+  ],
+  [
+   3,
+   "A Matriz X do caso",
+   "Bloco 3",
+   "#2F6B6F",
+   "A matriz da Rede Arvena",
+   "A construção"
+  ],
+  [
+   4,
+   "Galeria e catchball",
+   "Bloco 4",
+   "#7A4E6D",
+   "As perguntas de catchball",
+   "A construção"
+  ],
+  [
+   5,
+   "A sua Matriz X",
+   "Bloco 5",
+   "#5E7D52",
+   "A primeira versão da sua matriz",
+   "A construção"
+  ]
+ ],
+ "encontros": [
+  {
+   "n": 1,
+   "tom": "#E5662C",
+   "data": "29 de novembro de 2026",
+   "miro": "",
+   "titulo": "Desdobramento da estratégia <em>com Hoshin Kanri</em>",
+   "lede": "A cadeia de desdobramento, a Matriz X e os seus quatro lados, a matriz de um caso em três momentos, a galeria com catchball e a primeira versão da sua própria matriz.",
+   "capaz": [
+    "Desdobrar um objetivo estratégico em objetivos anuais, projetos e indicadores, mantendo a ligação entre a estratégia e a entrega do projeto.",
+    "Construir uma Matriz X que relacione objetivos de longo prazo, objetivos anuais, iniciativas, indicadores e responsáveis.",
+    "Diagnosticar, na matriz, projetos sem vínculo, objetivos descobertos e interfaces não pactuadas.",
+    "Relacionar OKR e Balanced Scorecard à primeira versão da Matriz X da própria organização."
+   ],
+   "blocos": [
+    {
+     "id": "e1-b0",
+     "num": "00",
+     "nome": "Abertura",
+     "tom": "#4A3F37",
+     "titulo": "Antes do método, <em>o diagnóstico inicial</em>",
+     "pergunta": "Como o objetivo estratégico da sua organização chega até o seu projeto?",
+     "constroi": "As duas frases do post-it",
+     "capaz": [],
+     "itens": [
+      {
+       "t": "atividade",
+       "id": "e1-a0",
+       "titulo": "Antes do método, o diagnóstico inicial",
+       "tempo": "8 min",
+       "passos": [
+        "Individual, três minutos: complete as duas frases num post-it amarelo.",
+        "“O objetivo estratégico da minha organização chega até o meu projeto como…”",
+        "“O que o meu projeto entrega, em uma frase, é…”",
+        "No grupo, cinco minutos: cada pessoa lê o que escreveu; o grupo escolhe o post-it que melhor representa os cinco."
+       ],
+       "meta": [
+        [
+         "Com quem",
+         "Individual, depois em grupo"
+        ],
+        [
+         "Material",
+         "Post-its amarelos; Hidrográfica preta"
+        ],
+        [
+         "Entrega",
+         "Um post-it escolhido por grupo, com as duas frases"
+        ],
+        [
+         "Tempo",
+         "8 min"
+        ]
+       ],
+       "campos": [
+        {
+         "k": "e1.a0.chega",
+         "rotulo": "Como o Objetivo Chega ao Meu Projeto",
+         "dica": "“O objetivo estratégico da minha organização chega até o meu projeto como…”",
+         "linhas": 2
+        },
+        {
+         "k": "e1.a0.entrega",
+         "rotulo": "O Que o Meu Projeto Entrega",
+         "dica": "“O que o meu projeto entrega, em uma frase, é…”",
+         "linhas": 2
+        }
+       ],
+       "slide": 7,
+       "exemplo": "<p>“Chega como uma linha no orçamento aprovado em dezembro. O meu projeto entrega o novo portal de atendimento.”</p>",
+       "pontos": [
+        "A situação atual, e não a desejada.",
+        "O que se repete entre os grupos: a forma como o objetivo chega ao projeto (planilha, orçamento, reunião, ou nenhuma).",
+        "O trecho entre o objetivo e o projeto é o que a Matriz X torna visível."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e1-b1",
+     "num": "01",
+     "nome": "Da estratégia ao projeto",
+     "tom": "#35608F",
+     "titulo": "Da estratégia <em>ao projeto</em>",
+     "pergunta": "O que separa um objetivo aprovado de um projeto que o realiza?",
+     "constroi": "O seu projeto testado na cadeia",
+     "capaz": [
+      "Descrever a cadeia de desdobramento, do objetivo de longo prazo à entrega do projeto.",
+      "Testar um projeto real na cadeia, de baixo para cima.",
+      "Reconhecer os três desvios mais frequentes em portfólios."
+     ],
+     "itens": [
+      {
+       "t": "conceito",
+       "titulo": "A cadeia de desdobramento em cinco elos",
+       "fonte": "Akao (1991); Jackson (2006). Apostila, página 2.",
+       "html": "<table class='tabela-c'><tr><th>Elo</th><th>A pergunta</th><th>Exemplo, apenas ilustrativo</th></tr><tr><td><b>1 · Objetivo de longo prazo</b></td><td>“Onde a organização quer chegar em três a cinco anos?”</td><td>Dobrar a base de alunos até 2029</td></tr><tr><td><b>2 · Objetivo anual</b></td><td>“Que passo deste ano aproxima o longo prazo?”</td><td>Ampliar as matrículas em 20% em 2027</td></tr><tr><td><b>3 · Iniciativa</b></td><td>“Que projeto realiza o objetivo do ano?”</td><td>Matrícula on-line em todas as unidades</td></tr><tr><td><b>4 · Indicador</b></td><td>“Como saberemos que está funcionando?”</td><td>Matrículas por mês</td></tr><tr><td><b>5 · Entregas do projeto</b></td><td>“O que o projeto entrega, e quando?”</td><td>Portal no ar em março; piloto em três unidades</td></tr></table><p>Os quatro primeiros elos ocupam a Matriz X; o quinto é o plano do projeto. O responsável é o ponto em que a cadeia inteira encontra uma pessoa.</p>"
+      },
+      {
+       "t": "atividade",
+       "id": "e1-a1",
+       "titulo": "Teste em duplas: um projeto real na cadeia",
+       "tempo": "4 min",
+       "passos": [
+        "Formem duplas no grupo; com cinco pessoas, um trio.",
+        "Uma pessoa nomeia um projeto real que conduz hoje.",
+        "A outra percorre a cadeia de baixo para cima: “Que indicador esse projeto move? Que objetivo do ano ele realiza? A que objetivo de longo prazo isso serve?”",
+        "Aos dois minutos, troquem. Anotem na página 2 o elo em que a resposta demorou."
+       ],
+       "meta": [
+        [
+         "Com quem",
+         "Duplas (um trio no grupo de cinco)"
+        ],
+        [
+         "Material",
+         "01 Apostila, página 2"
+        ],
+        [
+         "Entrega",
+         "O elo em que a cadeia de cada projeto se interrompeu"
+        ],
+        [
+         "Tempo",
+         "4 min"
+        ]
+       ],
+       "campos": [
+        {
+         "k": "e1.a1.proj",
+         "rotulo": "O Projeto",
+         "tipo": "texto",
+         "ph": "Um projeto real que você conduz hoje"
+        },
+        {
+         "k": "e1.a1.ind",
+         "rotulo": "O Indicador Que Ele Move",
+         "tipo": "texto"
+        },
+        {
+         "k": "e1.a1.ano",
+         "rotulo": "O Objetivo do Ano Que Ele Realiza",
+         "tipo": "texto"
+        },
+        {
+         "k": "e1.a1.lp",
+         "rotulo": "O Objetivo de Longo Prazo",
+         "tipo": "texto"
+        },
+        {
+         "k": "e1.a1.elo",
+         "rotulo": "O Elo em Que a Resposta Demorou",
+         "tipo": "escolha",
+         "opcoes": [
+          "Indicador",
+          "Objetivo do ano",
+          "Objetivo de longo prazo",
+          "A cadeia se completou"
+         ]
+        }
+       ],
+       "slide": 15,
+       "exemplo": "<p>“Projeto: novo portal de atendimento. Indicador: tempo de resposta. Objetivo do ano: não sei dizer.” A cadeia se interrompeu no terceiro elo.</p>",
+       "pontos": [
+        "Projeto sem vínculo: tem responsável, orçamento e cronograma, e nenhum objetivo anual depende dele. Na matriz, linha vazia no canto noroeste.",
+        "Objetivo descoberto: a meta está aprovada, com número e prazo, e nenhum projeto a realiza. Na matriz, coluna vazia no canto noroeste.",
+        "Indicador de esforço: reuniões realizadas, horas de treinamento, documentos publicados; o trabalho feito, sem o que mudou. Na matriz, fica invisível e depende de uma pergunta."
+       ]
+      },
+      {
+       "t": "atividade",
+       "id": "e1-a2",
+       "titulo": "Três minutos com o colega ao lado",
+       "tempo": "3 min",
+       "passos": [
+        "Nas mesmas duplas: “Qual dos três desvios você reconhece no portfólio da sua organização?”",
+        "Projeto sem vínculo, objetivo descoberto ou indicador de esforço.",
+        "Um minuto e meio para cada pessoa. A conversa permanece na dupla."
+       ],
+       "meta": [
+        [
+         "Com quem",
+         "As mesmas duplas"
+        ],
+        [
+         "Material",
+         "Nenhum"
+        ],
+        [
+         "Entrega",
+         "O desvio que cada pessoa reconhece no próprio portfólio"
+        ],
+        [
+         "Tempo",
+         "3 min"
+        ]
+       ],
+       "campos": [
+        {
+         "k": "e1.a2.desvio",
+         "rotulo": "O Desvio Que Reconheço",
+         "tipo": "escolha",
+         "opcoes": [
+          "Projeto sem vínculo",
+          "Objetivo descoberto",
+          "Indicador de esforço"
+         ]
+        },
+        {
+         "k": "e1.a2.onde",
+         "rotulo": "Onde Ele Aparece no Meu Portfólio",
+         "dica": "Use o papel das pessoas, e não o nome.",
+         "linhas": 2
+        }
+       ],
+       "slide": 21,
+       "exemplo": "<p>“Indicador de esforço: o relatório mensal do escritório de projetos conta entregas no prazo, e ninguém mede o que mudou para o cliente.”</p>",
+       "pontos": [
+        "Os dois primeiros desvios a matriz identifica sozinha, por uma linha ou uma coluna vazia; o terceiro depende de uma pergunta.",
+        "A cadeia inteira cabe numa página: é a Matriz X."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e1-b2",
+     "num": "02",
+     "nome": "A Matriz X e seus quatro lados",
+     "tom": "#B5781E",
+     "titulo": "A Matriz X e <em>seus quatro lados</em>",
+     "pergunta": "Como cinco listas diferentes cabem numa única página?",
+     "constroi": "A matriz de exemplo explicada a um colega",
+     "capaz": [
+      "Reconhecer as cinco seções da Matriz X e a pergunta de cada uma.",
+      "Ler os cantos da matriz e identificar linha vazia e coluna vazia.",
+      "Explicar uma Matriz X preenchida a um colega."
+     ],
+     "itens": [
+      {
+       "t": "conceito",
+       "titulo": "De onde vem o método",
+       "fonte": "Akao, Y. (org.). Hoshin Kanri. Productivity Press, 1991; Jackson, T. L. Hoshin Kanri for the Lean Enterprise. Productivity Press, 2006; Kaplan, R.; Norton, D. The Balanced Scorecard. HBS Press, 1996.",
+       "html": "<div class='cards3'><div><b>Yoji Akao · 1991</b><p>Hoshin Kanri: poucos objetivos de ruptura, desdobrados em cascata e ajustados em conversa entre os níveis (catchball). Hoshin junta dois ideogramas, direção e agulha: a bússola.</p></div><div><b>Thomas L. Jackson · 2006</b><p>A Matriz X numa única folha, em cinco seções: Objetivos de Longo Prazo, Objetivos Anuais, Iniciativas, Indicadores e Responsáveis.</p></div><div><b>Kaplan e Norton · 1996</b><p>O Balanced Scorecard convive com a matriz: as perspectivas organizam o longo prazo, e os indicadores do scorecard entram em Indicadores.</p></div></div><p>A matriz se preenche e se lê na mesma ordem: do sul, no sentido horário. Círculo cheio: ligação direta (responsável principal); vazado: ligação indireta (apoio).</p>"
+      },
+      {
+       "t": "atividade",
+       "id": "e1-a3",
+       "titulo": "Em duplas: o que a sua organização já usa",
+       "tempo": "2 min",
+       "passos": [
+        "Formem duplas no grupo e abram a apostila na página 3.",
+        "Cada pessoa diz o instrumento que a organização usa: OKR, Balanced Scorecard ou outro.",
+        "Localizem na tabela, peça por peça: “Onde entra, na matriz, o que a sua organização já usa?”",
+        "Marquem na página 3 a linha que gerou dúvida, para a conferência."
+       ],
+       "meta": [
+        [
+         "Com quem",
+         "Duplas (um trio no grupo de cinco)"
+        ],
+        [
+         "Material",
+         "01 Apostila, página 3"
+        ],
+        [
+         "Entrega",
+         "A peça da organização localizada em cada seção da matriz"
+        ],
+        [
+         "Tempo",
+         "2 min"
+        ]
+       ],
+       "campos": [
+        {
+         "k": "e1.a3.inst",
+         "rotulo": "O Instrumento Que a Minha Organização Usa",
+         "tipo": "escolha",
+         "opcoes": [
+          "OKR",
+          "Balanced Scorecard",
+          "OKR e Balanced Scorecard",
+          "Outro",
+          "Nenhum"
+         ]
+        },
+        {
+         "k": "e1.a3.onde",
+         "rotulo": "Onde Cada Peça Entra na Matriz X",
+         "dica": "Exemplo: o Objective do semestre entra em Objetivos Anuais.",
+         "linhas": 3
+        }
+       ],
+       "slide": 30,
+       "exemplo": "<p>“Usamos OKR: o Objective do semestre entra em Objetivos Anuais; os Key Results, em Indicadores.”</p>",
+       "pontos": [
+        "Objetivos de Longo Prazo: objetivos de ruptura (Jackson); no BSC, os objetivos estratégicos das quatro perspectivas.",
+        "Objetivos Anuais: o Objective de um ciclo de OKR; as metas do ano no mapa estratégico.",
+        "Iniciativas: prioridades de melhoria; os projetos e programas do portfólio.",
+        "Indicadores: os Key Results, com número de chegada; os indicadores do scorecard.",
+        "Responsáveis: recursos e times; o gerente do projeto e o patrocinador."
+       ]
+      },
+      {
+       "t": "atividade",
+       "id": "e1-a4",
+       "titulo": "Mito ou fato: a Matriz X",
+       "tempo": "2 min",
+       "passos": [
+        "Leiam cada afirmação, em silêncio.",
+        "<b>Fato</b>: fiquem de pé. <b>Mito</b>: permaneçam na cadeira.",
+        "A resposta, com o porquê, vem depois das cinco afirmações."
+       ],
+       "meta": [
+        [
+         "Com quem",
+         "Individual"
+        ],
+        [
+         "Material",
+         "Nenhum"
+        ],
+        [
+         "Entrega",
+         "Uma decisão por afirmação"
+        ],
+        [
+         "Tempo",
+         "2 min"
+        ]
+       ],
+       "campos": [
+        {
+         "k": "e1.a4.mf",
+         "rotulo": "Mito ou Fato",
+         "tipo": "associar",
+         "opcoes": [
+          "Mito",
+          "Fato"
+         ],
+         "pares": [
+          [
+           "Um projeto pode permanecer na Matriz X sem correlação com nenhum objetivo anual.",
+           "Mito"
+          ],
+          [
+           "Uma coluna vazia no canto noroeste indica um objetivo anual que nenhum projeto realiza.",
+           "Fato"
+          ],
+          [
+           "No Hoshin Kanri, a maior parte do trabalho da organização fica fora da Matriz X.",
+           "Fato"
+          ],
+          [
+           "“Reuniões realizadas” é um bom indicador para uma iniciativa.",
+           "Mito"
+          ],
+          [
+           "No Hoshin Kanri, a meta desce pronta da diretoria e a equipe executa.",
+           "Mito"
+          ]
+         ]
+        }
+       ],
+       "slide": 35,
+       "exemplo": "<p>“A Matriz X cabe numa única folha.” Fato: as cinco seções ficam numa página.</p>",
+       "pontos": [
+        "1. Mito: linha vazia no canto noroeste é projeto sem vínculo, o primeiro desvio.",
+        "2. Fato: é o objetivo descoberto, o segundo desvio.",
+        "3. Fato: a matriz cuida dos poucos objetivos de ruptura; a rotina tem gestão própria.",
+        "4. Mito: mede esforço. O leste da matriz mede o que mudou.",
+        "5. Mito: a meta desce como proposta e volta ajustada; é o catchball."
+       ]
+      },
+      {
+       "t": "atividade",
+       "id": "e1-a5",
+       "titulo": "Ensino entre pares: oito minutos",
+       "tempo": "8 min",
+       "passos": [
+        "Em duplas, com a apostila na página 4. Começa quem acordou mais cedo hoje.",
+        "Primeira pessoa, quatro minutos: explica o sul, o oeste e o canto sudoeste.",
+        "Segunda pessoa, quatro minutos: explica o norte, o leste, o canto noroeste e os responsáveis.",
+        "Quem ouve faz uma pergunta ao fim de cada explicação."
+       ],
+       "meta": [
+        [
+         "Com quem",
+         "Duplas (um trio no grupo de cinco)"
+        ],
+        [
+         "Material",
+         "01 Apostila, página 4"
+        ],
+        [
+         "Entrega",
+         "As cinco seções e os cantos explicados em voz alta"
+        ],
+        [
+         "Tempo",
+         "8 min"
+        ]
+       ],
+       "campos": [
+        {
+         "k": "e1.a5.secao",
+         "rotulo": "A Seção Que Expliquei",
+         "dica": "A peça, o porquê e a ligação.",
+         "linhas": 2
+        },
+        {
+         "k": "e1.a5.perg",
+         "rotulo": "A Pergunta Que Recebi",
+         "dica": "",
+         "linhas": 2
+        }
+       ],
+       "slide": 39,
+       "exemplo": "<p>“Reduzir a evasão de 18% para 12% é objetivo do ano porque tem número de partida, número de chegada e prazo. O círculo cheio o liga a ser a escola mais recomendada.”</p>",
+       "pontos": [
+        "Retirem o objetivo de reduzir a evasão: o painel semanal de frequência e a revisão da grade de horários perdem a correlação forte.",
+        "Qual dessas iniciativas também existe no portfólio da sua organização?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e1-b3",
+     "num": "03",
+     "nome": "A Matriz X do caso",
+     "tom": "#2F6B6F",
+     "titulo": "A Matriz X <em>do caso</em>",
+     "pergunta": "Com nove projetos e orçamento para seis, quais realizam a estratégia?",
+     "constroi": "A Matriz X da Rede Arvena, no A1",
+     "capaz": [
+      "Escrever objetivos anuais com número de partida, de chegada e prazo.",
+      "Escolher as iniciativas que realizam cada objetivo do ano e os indicadores que as comprovam.",
+      "Atribuir um responsável por iniciativa e pactuar as interfaces entre áreas."
+     ],
+     "itens": [
+      {
+       "t": "conceito",
+       "titulo": "O caso: Rede Arvena de Diagnósticos",
+       "fonte": "Caso fictício. 02 Caso Rede Arvena, páginas 1 e 2.",
+       "html": "<p>Rede fictícia de clínicas de diagnóstico por imagem e laboratório, com 14 unidades em Pernambuco, Paraíba e Alagoas e 1.100 colaboradores.</p><p><b>Objetivos de longo prazo, conselho, até 2029:</b> ser a primeira escolha em diagnóstico por imagem no Nordeste, com participação de mercado de 15% (hoje, 9%); entregar todo laudo de imagem em até 24 horas; dobrar a receita com empresas clientes.</p><p><b>Os fatos de 2027:</b> laudo em 52 horas, com meta de 36 ao fim de 2027; agendamento com 38% das reclamações e só 12% on-line; 41 contratos corporativos, com meta de 55 em 2027; recoleta de 4,1%, com 2% como patamar adequado; orçamento para seis projetos, com nove no portfólio.</p>"
+      },
+      {
+       "t": "atividade",
+       "id": "e1-a6",
+       "titulo": "Primeiro momento: sul, oeste e o canto sudoeste",
+       "tempo": "16 min",
+       "passos": [
+        "Escrevam os três objetivos do conselho em <b>Objetivos de Longo Prazo</b>, um post-it amarelo por linha.",
+        "Com os fatos de 2027, escrevam até quatro <b>Objetivos Anuais</b>, um por coluna.",
+        "Cada objetivo anual com número de partida, número de chegada e prazo.",
+        "Marquem o canto sudoeste: círculo cheio para ligação direta, vazado para indireta."
+       ],
+       "meta": [
+        [
+         "Com quem",
+         "Grupo de cinco, com os papéis"
+        ],
+        [
+         "Material",
+         "02 Caso, página 1; 03 Matriz X da mesa (A1); Post-its amarelos e hidrográfica"
+        ],
+        [
+         "Entrega",
+         "Sul, oeste e o canto sudoeste preenchidos"
+        ],
+        [
+         "Tempo",
+         "16 min"
+        ]
+       ],
+       "campos": [
+        {
+         "k": "e1.a6.t",
+         "rotulo": "Os Objetivos Anuais do Grupo",
+         "tipo": "tabela",
+         "n": 4,
+         "colunas": [
+          {
+           "t": "Objetivo anual"
+          },
+          {
+           "t": "Partida"
+          },
+          {
+           "t": "Chegada"
+          },
+          {
+           "t": "Prazo"
+          },
+          {
+           "t": "Ligação com o longo prazo",
+           "opcoes": [
+            "Cheia",
+            "Vazada",
+            "Sem ligação"
+           ]
+          }
+         ]
+        }
+       ],
+       "slide": 46,
+       "exemplo": "<p>“Reduzir o tempo médio do laudo de imagem de 52 para 36 horas até dezembro de 2027”, com círculo cheio no objetivo do laudo em 24 horas.</p>",
+       "pontos": [
+        "Laudo de imagem de 52 para 36 horas até dezembro de 2027.",
+        "Contratos corporativos de 41 para 55 em 2027.",
+        "Unidade de Caruaru aberta em 2027, perto de 10,5% do mercado.",
+        "Agendamento on-line de 12% para um número definido pelo grupo (por exemplo, 40%).",
+        "Conferir: partida, chegada e prazo em cada linha; ao menos um círculo cheio."
+       ]
+      },
+      {
+       "t": "atividade",
+       "id": "e1-a7",
+       "titulo": "Segundo momento: norte, leste e dois cantos",
+       "tempo": "17 min",
+       "passos": [
+        "Escolham até seis dos nove projetos e escrevam em <b>Iniciativas</b>, um post-it por linha.",
+        "Marquem o canto noroeste inteiro: o objetivo anual que cada iniciativa realiza.",
+        "Escolham até cinco <b>Indicadores</b>, um por coluna, e marquem o canto nordeste.",
+        "Projeto que ficou de fora: anotem, na margem, o motivo em três palavras."
+       ],
+       "meta": [
+        [
+         "Com quem",
+         "Grupo de cinco, papéis girados"
+        ],
+        [
+         "Material",
+         "02 Caso, página 2; 03 Matriz X da mesa (A1); Post-its amarelos e hidrográfica"
+        ],
+        [
+         "Entrega",
+         "Norte, leste e os cantos noroeste e nordeste preenchidos"
+        ],
+        [
+         "Tempo",
+         "17 min"
+        ]
+       ],
+       "campos": [
+        {
+         "k": "e1.a7.t",
+         "rotulo": "Iniciativas e Indicadores do Grupo",
+         "tipo": "tabela",
+         "n": 6,
+         "colunas": [
+          {
+           "t": "Iniciativa"
+          },
+          {
+           "t": "Indicador"
+          },
+          {
+           "t": "Esforço ou resultado",
+           "opcoes": [
+            "Resultado",
+            "Esforço"
+           ]
+          }
+         ]
+        }
+       ],
+       "slide": 51,
+       "exemplo": "<p>“Telerradiologia com laudistas remotos”: círculo cheio no objetivo do laudo em 36 horas e no indicador tempo médio do laudo de imagem.</p>",
+       "pontos": [
+        "Linhas: toda iniciativa com ao menos um círculo cheio; linha vazia é projeto sem vínculo.",
+        "Colunas: todo objetivo anual com ao menos uma iniciativa; coluna vazia é objetivo descoberto.",
+        "No máximo seis iniciativas; identidade visual e auditório ficam sem objetivo anual."
+       ]
+      },
+      {
+       "t": "atividade",
+       "id": "e1-a8",
+       "titulo": "Terceiro momento: responsáveis e interfaces",
+       "tempo": "16 min",
+       "passos": [
+        "Um nome por coluna em <b>Responsáveis</b>, entre as pessoas da página 2 do caso.",
+        "Em cada iniciativa, um único círculo cheio em quem responde; vazado em quem apoia ou é interface.",
+        "Em <b>Interfaces a Pactuar</b>, até quatro dependências: de quem, o quê, até quando e o aviso de atraso.",
+        "Confiram: há pessoa com mais de dois círculos cheios?"
+       ],
+       "meta": [
+        [
+         "Com quem",
+         "Grupo de cinco"
+        ],
+        [
+         "Material",
+         "02 Caso, página 2; 03 Matriz X da mesa (A1); Hidrográfica preta"
+        ],
+        [
+         "Entrega",
+         "Um responsável por iniciativa e as interfaces pactuadas por escrito"
+        ],
+        [
+         "Tempo",
+         "16 min"
+        ]
+       ],
+       "campos": [
+        {
+         "k": "e1.a8.resp",
+         "rotulo": "O Responsável de Cada Iniciativa",
+         "dica": "Um único círculo cheio por iniciativa.",
+         "linhas": 3
+        },
+        {
+         "k": "e1.a8.t",
+         "rotulo": "Interfaces a Pactuar",
+         "tipo": "tabela",
+         "n": 4,
+         "colunas": [
+          {
+           "t": "De quem"
+          },
+          {
+           "t": "O quê"
+          },
+          {
+           "t": "Até quando"
+          },
+          {
+           "t": "Aviso de atraso"
+          }
+         ]
+        }
+       ],
+       "slide": 58,
+       "exemplo": "<p>“Telerradiologia”: círculo cheio em André Falcão, vazado em Paula Menezes. Interface: Tecnologia, integração do sistema de imagens, até abril de 2027, aviso na reunião semanal.</p>",
+       "pontos": [
+        "Um responsável por iniciativa: telerradiologia com André Falcão.",
+        "A interface pactuada: a integração da Tecnologia, com data e aviso.",
+        "Pergunta que revela a interface: “Se essa entrega atrasar na outra área, quando o responsável fica sabendo?”"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e1-b4",
+     "num": "04",
+     "nome": "Galeria e catchball",
+     "tom": "#7A4E6D",
+     "titulo": "Galeria <em>e catchball</em>",
+     "pergunta": "O que as outras matrizes mostram que a nossa não mostrou?",
+     "constroi": "As perguntas de catchball respondidas",
+     "capaz": [
+      "Comparar as escolhas de cinco grupos para o mesmo caso.",
+      "Formular perguntas de catchball à matriz de outro grupo.",
+      "Responder a uma pergunta recebida e ajustar a própria matriz."
+     ],
+     "itens": [
+      {
+       "t": "atividade",
+       "id": "e1-a9",
+       "titulo": "Galeria das matrizes: oito minutos, em pé",
+       "tempo": "8 min",
+       "passos": [
+        "As cinco matrizes ficam abertas. Todos circulam, em pé, pelas matrizes dos outros grupos.",
+        "Post-it laranja: uma pergunta de catchball para o grupo, com o seu nome.",
+        "Post-it amarelo: “esta escolha eu adotaria na minha organização”, com o seu nome.",
+        "No mínimo dois post-its por pessoa, em matrizes que não sejam a do seu grupo."
+       ],
+       "meta": [
+        [
+         "Com quem",
+         "Todos, em pé, individualmente"
+        ],
+        [
+         "Material",
+         "03 Matriz X da mesa (A1); Post-its laranja e amarelos; 01 Apostila, página 5"
+        ],
+        [
+         "Entrega",
+         "Dois post-its por pessoa nas matrizes dos outros grupos"
+        ],
+        [
+         "Tempo",
+         "8 min"
+        ]
+       ],
+       "campos": [
+        {
+         "k": "e1.a9.lar",
+         "rotulo": "A Pergunta de Catchball Que Deixei",
+         "dica": "Post-it laranja, com o seu nome.",
+         "linhas": 2
+        },
+        {
+         "k": "e1.a9.ama",
+         "rotulo": "A Escolha Que Eu Adotaria",
+         "dica": "Post-it amarelo, com o seu nome.",
+         "linhas": 2
+        },
+        {
+         "k": "e1.a9.rec",
+         "rotulo": "A Pergunta Que o Meu Grupo Recebeu",
+         "dica": "",
+         "linhas": 2
+        }
+       ],
+       "slide": 63,
+       "exemplo": "<p>post-it laranja ao lado de “Unidade nova em João Pessoa”: “Que objetivo de 2027 este projeto realiza? Rafaela”.</p>",
+       "pontos": [
+        "No setor: “Em que tipo de organização a meta costuma descer pronta?”",
+        "Na matriz do grupo: “Que pergunta laranja o grupo não soube responder de imediato?”",
+        "Para você: “Que pergunta você vai repetir no próximo planejamento do seu portfólio?”"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e1-b5",
+     "num": "05",
+     "nome": "A sua Matriz X",
+     "tom": "#5E7D52",
+     "titulo": "A sua <em>Matriz X</em>",
+     "pergunta": "Como o seu portfólio ficaria numa única página?",
+     "constroi": "A primeira versão da sua Matriz X",
+     "capaz": [
+      "Montar a primeira versão da Matriz X da sua organização ou da sua área.",
+      "Aplicar ao próprio portfólio as quatro perguntas de diagnóstico.",
+      "Nomear a conversa que a matriz tornou inadiável."
+     ],
+     "itens": [
+      {
+       "t": "atividade",
+       "id": "e1-a10",
+       "titulo": "A sua Matriz X, primeira versão",
+       "tempo": "16 min",
+       "passos": [
+        "Escrevam no alto a organização, ou a área, que a matriz representa.",
+        "Um ou dois <b>Objetivos de Longo Prazo</b> e os <b>Objetivos Anuais</b> que vocês conhecem.",
+        "Em <b>Iniciativas</b>, os projetos reais do seu portfólio. Marquem o canto noroeste: há linha vazia ou coluna vazia?",
+        "<b>Indicadores</b> e <b>Responsáveis</b> para as iniciativas que ficaram. Onde faltar informação, a pergunta para a diretoria."
+       ],
+       "meta": [
+        [
+         "Com quem",
+         "Individual"
+        ],
+        [
+         "Material",
+         "04 Matriz X individual (A3); Esferográfica"
+        ],
+        [
+         "Entrega",
+         "A primeira versão da sua matriz e uma pergunta para a diretoria"
+        ],
+        [
+         "Tempo",
+         "16 min"
+        ]
+       ],
+       "campos": [
+        {
+         "k": "e1.a10.org",
+         "rotulo": "A Organização ou a Área",
+         "tipo": "texto",
+         "ph": "Use um nome genérico, se o dado for reservado"
+        },
+        {
+         "k": "e1.a10.lp",
+         "rotulo": "Objetivos de Longo Prazo",
+         "dica": "Um ou dois.",
+         "linhas": 2
+        },
+        {
+         "k": "e1.a10.an",
+         "rotulo": "Objetivos Anuais",
+         "dica": "",
+         "linhas": 2
+        },
+        {
+         "k": "e1.a10.in",
+         "rotulo": "Iniciativas",
+         "dica": "Os projetos reais do seu portfólio.",
+         "linhas": 3
+        },
+        {
+         "k": "e1.a10.id",
+         "rotulo": "Indicadores",
+         "dica": "",
+         "linhas": 2
+        },
+        {
+         "k": "e1.a10.rs",
+         "rotulo": "Responsáveis",
+         "dica": "",
+         "linhas": 2
+        },
+        {
+         "k": "e1.a10.perg",
+         "rotulo": "A Pergunta para a Diretoria",
+         "dica": "Onde faltar informação.",
+         "linhas": 2
+        }
+       ],
+       "slide": 67,
+       "exemplo": "<p>em Iniciativas, “Implantar o painel de projetos do PMO”, com ponto de interrogação no objetivo anual: “perguntar à diretoria”.</p>",
+       "pontos": [
+        "A linha ou a coluna vazia no canto noroeste é um achado: ela se torna a pergunta para a diretoria.",
+        "Quem não conhece os objetivos da organização escreve o que supõe e marca com ponto de interrogação."
+       ]
+      },
+      {
+       "t": "atividade",
+       "id": "e1-a11",
+       "titulo": "Aplicação em trios: quatro minutos",
+       "tempo": "4 min",
+       "passos": [
+        "Formem trios, de preferência com pessoas de organizações diferentes.",
+        "“Que conversa a sua matriz tornou inadiável, e com quem?”",
+        "“O que desta manhã cabe na próxima reunião do seu projeto, sem depender de ninguém de fora?”",
+        "Registrem as duas respostas na página 6 da apostila."
+       ],
+       "meta": [
+        [
+         "Com quem",
+         "Trios, de organizações diferentes"
+        ],
+        [
+         "Material",
+         "04 Matriz X individual; 01 Apostila, página 6"
+        ],
+        [
+         "Entrega",
+         "A conversa, a pessoa e o primeiro passo, ditos em voz alta"
+        ],
+        [
+         "Tempo",
+         "4 min"
+        ]
+       ],
+       "campos": [
+        {
+         "k": "e1.a11.conv",
+         "rotulo": "A Conversa Que a Matriz Tornou Inadiável, e Com Quem",
+         "dica": "",
+         "linhas": 2
+        },
+        {
+         "k": "e1.a11.passo",
+         "rotulo": "O Primeiro Passo, Sem Depender de Ninguém de Fora",
+         "dica": "",
+         "linhas": 2
+        }
+       ],
+       "slide": 68,
+       "exemplo": "<p>“Peço quinze minutos à minha diretora para mostrar os três projetos que não encontrei em objetivo nenhum.”</p>"
+      }
+     ]
+    },
+    {
+     "id": "e1-b6",
+     "num": "06",
+     "nome": "Fechamento",
+     "tom": "#9A5B33",
+     "titulo": "Três passos para <em>a primeira Matriz X</em>",
+     "pergunta": "",
+     "constroi": "A autoavaliação e os três passos",
+     "capaz": [],
+     "itens": [
+      {
+       "t": "conceito",
+       "titulo": "Três passos para a primeira Matriz X na organização",
+       "fonte": "Apostila, página 6.",
+       "html": "<div class='cards3'><div><b>1 · Comece pequeno</b><p>Uma área ou diretoria, com no máximo três objetivos de longo prazo.</p></div><div><b>2 · Feche com catchball</b><p>Antes de fechar a matriz, uma volta de conversa com os responsáveis.</p></div><div><b>3 · Revise todo mês</b><p>A matriz diante de todos, indicador por indicador, com decisão para o que estiver fora da faixa.</p></div></div>"
+      },
+      {
+       "t": "atividade",
+       "id": "e1-a12",
+       "titulo": "Autoavaliação: o que você já é capaz de fazer",
+       "tempo": "2 min",
+       "passos": [
+        "Dê uma nota de 1 a 5 a cada objetivo da manhã: 1, ainda não; 5, já sou capaz.",
+        "Onde a nota ficar abaixo de 3, a apostila indica a página que cobre o assunto."
+       ],
+       "meta": [
+        [
+         "Com quem",
+         "Individual"
+        ],
+        [
+         "Material",
+         "Workbook"
+        ],
+        [
+         "Entrega",
+         "A nota de cada objetivo"
+        ],
+        [
+         "Tempo",
+         "2 min"
+        ]
+       ],
+       "campos": [
+        {
+         "k": "e1.a12.n",
+         "rotulo": "A Minha Nota",
+         "tipo": "notas",
+         "dims": [
+          [
+           "d1",
+           "Desdobrar um objetivo estratégico"
+          ],
+          [
+           "d2",
+           "Construir uma Matriz X"
+          ],
+          [
+           "d3",
+           "Diagnosticar desvios e interfaces"
+          ],
+          [
+           "d4",
+           "Relacionar OKR e BSC à matriz"
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
