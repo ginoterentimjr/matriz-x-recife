@@ -242,7 +242,7 @@ if PROF:
     for enc in ENCONTROS:
         corpo += encontro_html(enc)
     os.makedirs(os.path.join(RAIZ, "professor"), exist_ok=True)
-    open(os.path.join(RAIZ, "professor", "Matriz-X-Recife_Workbook_Professor_v1.html"), "w", encoding="utf-8").write(
+    open(os.path.join(RAIZ, "professor", "Matriz-X-Recife_Workbook_Professor_v2.html"), "w", encoding="utf-8").write(
         pagina("Matriz X · Workbook · Versão do professor", corpo, "prof", fontes(True)))
     print("professor ok")
 else:
