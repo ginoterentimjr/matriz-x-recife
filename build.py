@@ -39,10 +39,9 @@ def icone(nome, cor="#FFFFFF", tam=28, sw=1.8):
     t = t.replace('width="24"', f'width="{tam}"', 1).replace('height="24"', f'height="{tam}"', 1)
     return t.replace('stroke="currentColor"', f'stroke="{cor}"').replace('stroke-width="2"', f'stroke-width="{sw}"').replace("\n", "")
 
-IC_BLOCO = {"Abertura": "compass", "Da estratégia ao projeto": "signpost", "A Matriz X e seus quatro lados": "grid-3x3",
-            "A Matriz X do caso": "pencil-ruler", "Galeria e catchball": "arrow-left-right", "A sua Matriz X": "target",
+IC_BLOCO = {"Abertura": "compass", "O método": "signpost", "A Matriz X do caso": "pencil-ruler", "A sua Matriz X": "target",
             "Fechamento": "calendar-check"}
-IC_ENC = {1: "signpost", 2: "grid-3x3", 3: "pencil-ruler", 4: "arrow-left-right", 5: "target"}
+IC_ENC = {1: "signpost", 2: "pencil-ruler", 3: "target"}
 FOTO_ENC = {1: "e1.jpg"}
 e = html.escape
 
@@ -152,14 +151,14 @@ def bloco_html(b, enc):
 
 
 DIA_ISO, DIA = "2026-11-29", "29/11"
-FASES = (("O método", 2), ("A construção", 3))
+FASES = (("O método", 1), ("A construção", 2))
 
 
 def caminho_html(atual, grande=False):
-    """Mapa da manhã: os cinco blocos da oficina como paradas ligadas por uma rota, com foto, ícone e fase."""
+    """Mapa da manhã: os três blocos da oficina como paradas ligadas por uma rota, com foto, ícone e fase."""
     o = f'<div class="rota{" rota--grande" if grande else ""}">'
     o += ('<svg class="rota__linha" viewBox="0 0 1000 200" preserveAspectRatio="none" aria-hidden="true">'
-          '<path d="M100,62 C170,62 220,138 300,138 S430,62 500,62 S630,138 700,138 S830,62 900,62"/></svg>')
+          '<path d="M167,62 C300,62 367,138 500,138 S700,62 833,62"/></svg>')
     for n, nome, rot, tom, prod, grupo in CAMINHO:
         cls = "aqui" if n == atual else ""
         tag = "span" if PROF else "a"
@@ -274,10 +273,10 @@ else:
             f'<li><span class="disco" style="--tom:#5E7D52">{icone("map-pin")}</span><div><b>O seu registro, bloco a bloco</b><p>Cada resposta é gravada na sua página assim que você escreve, e fica disponível depois da oficina.</p></div></li></ol></section>')
     idx += ('<section class="mapa-curso" data-mapa-curso><div class="mapa-curso__cab"><div><div class="eyebrow" style="--tom:#E5662C"><span>O CAMINHO DA MANHÃ</span><i></i></div>'
             '<h2><span data-ola-bloco hidden>Olá, <span data-ola></span>. </span>O seu <em>caminho</em></h2>'
-            '<p>Domingo, 29 de novembro de 2026, das 8h30 às 12h30, no RioMar Eventos. Cinco blocos, do método à primeira versão da sua Matriz X; cada parada do mapa abre o bloco no workbook a partir do dia da oficina.</p></div>'
+            '<p>Domingo, 29 de novembro de 2026, das 8h30 às 12h30, no RioMar Eventos. Três blocos, do método à primeira versão da sua Matriz X; cada parada do mapa abre o bloco no workbook a partir do dia da oficina.</p></div>'
             f'<span class="rosa" aria-hidden="true">{icone("compass", "#C9A24D", 120, 1.1)}</span></div>' + caminho_html(0, True) +
             '<div class="cards3 cards3--claro"><div><b>Como usar</b><p>Abra o bloco do momento e registre as suas respostas à medida que cada atividade acontece. O papel continua a ser o instrumento do grupo; o workbook guarda a sua versão.</p></div>'
-            '<div><b>Depois da oficina</b><p>A sua Matriz X e as respostas ficam na sua página, para a primeira conversa de catchball na sua organização.</p></div>'
+            '<div><b>Depois da oficina</b><p>A sua Matriz X e as respostas ficam na sua página, para a primeira conversa sobre a matriz na sua organização.</p></div>'
             '<div><b>Reserva dos seus dados</b><p>As respostas ficam na planilha privada da oficina, aberta apenas ao Gino Terentim, e na sua página, protegida pelo seu código. Use o papel das pessoas, e não o nome.</p></div></div>'
             f'<a class="cartao cartao--mentor" href="mentoria.html" style="--tom:#2A211C"><span class="disco" style="--tom:#E5662C">{icone("messages-square")}</span><span><span class="cartao__k">DEPOIS DA OFICINA</span><b>Dúvidas para o Gino Terentim</b><i>Pergunte sobre o método e as atividades; a resposta volta para a sua página e para o seu e-mail</i></span></a></section>')
     open(os.path.join(D, "index.html"), "w", encoding="utf-8").write(pagina("Matriz X · Workbook digital", idx, "index", F))
@@ -295,7 +294,7 @@ else:
          '<div class="cards3"><div><b>Reserva</b><p>As dúvidas ficam na planilha privada da oficina, aberta apenas ao Gino Terentim. Use o papel das pessoas, e não o nome, e mantenha fora do texto os dados reservados da sua organização.</p></div>'
          '<div><b>Uma boa pergunta</b><p>Traz o contexto do seu portfólio, o que você já tentou e o ponto exato da dúvida.</p></div>'
          '<div><b>Prazo</b><p>As dúvidas ficam abertas até 31 de dezembro de 2026.</p></div></div>'
-         '<article class="regua"><h3>Exemplo de pergunta, apenas ilustrativo</h3><p>“No meu portfólio, três projetos ficaram sem objetivo anual no canto noroeste, e um deles é o mais caro do ano. Como abrir a conversa de catchball com o patrocinador de modo construtivo?”</p></article></div>'
+         '<article class="regua"><h3>Exemplo de pergunta, apenas ilustrativo</h3><p>“No meu portfólio, três projetos ficaram sem objetivo anual no canto noroeste, e um deles é o mais caro do ano. Como abrir a conversa com o patrocinador de modo construtivo?”</p></article></div>'
          '<div class="aba__painel" role="tabpanel" id="painel-enviadas" aria-labelledby="aba-enviadas" data-painel-aba="enviadas" hidden>'
          '<h2>As suas <em>dúvidas</em></h2><p class="aba__nota">Cada resposta nova chega com o selo <b>Nova</b> e passa a constar como lida quando você abre esta aba.</p>'
          '<div class="duvidas__todas" data-duvidas-todas></div></div></section>')
